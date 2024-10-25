@@ -1,0 +1,6 @@
+friend1 = input('Friend: ')
+friend2 = input('Friend: ')
+friend3 = input('Friend: ')
+print(f'Hello, young {friend1}')
+print(f'Hello, wise {friend2}')
+print(f'Hello, brave {friend3}')

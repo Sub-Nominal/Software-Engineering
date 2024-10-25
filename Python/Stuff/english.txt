@@ -1,0 +1,4 @@
+circle
+table
+year
+competition

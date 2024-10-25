@@ -1,0 +1,10 @@
+gtype = input("Garden type: ")
+plantvar = input("Plant varieties: ")
+equip = input("Items needed to make the garden: ")
+plants = plantvar.split()
+tools = equip.split()
+print(f"We are building a garden in the style of: {gtype}")
+print(f"Plants needed"+ {*plants, sep=' 🌱 '}")
+print("To build the garden we will need:")
+for tool in tools:
+    print(f"{"⚙️ "}{tool}")

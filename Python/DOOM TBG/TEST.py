@@ -1,0 +1,8 @@
+LV1 = Level(1, 1, "The first level", "E1M1")
+healthpack = Pickup("Health pack", "Heals alot of health", 15)
+LV1.setpickup(healthpack)
+p = Player('Player', 'Rip and Tear', 10, 10)
+demon = Enemy('Imp', 'Cringe', 10, 5)
+p.getpickup(healthpack)
+p.healplayer(healthpack)
+demon.fight(p)
