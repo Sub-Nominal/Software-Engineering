@@ -1,7 +1,16 @@
 h1 {
     font-family: "Roboto", serif;
     font-weight: 500;
+    font-size: 100px;
     font-style: normal;
     text-align: center;
   }
+body {
+    display: block;
+    margin: 8px;
+}
+
+html {
+    display: block;
+}
   
